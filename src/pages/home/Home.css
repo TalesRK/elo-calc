@@ -1,0 +1,65 @@
+.home {
+    text-align: center;
+    background-color: #1f1f1f;
+    min-height: 100vh;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    flex-direction: column;
+    /* padding: 2%; */
+}
+
+.logo-display {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 0px 3% 0px;
+    justify-content: center;
+}
+
+.logo {
+    height: 80%;
+}
+
+.logo-image {
+    max-height: 150px;
+    min-width: 165px;
+    width: 35%;
+    height: auto;
+}
+
+.title {
+    color: #f5204e;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.elo-result {
+    padding-bottom: 3%;
+}
+
+.result-elo {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.elo-select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.player-elo {
+    border: 2px solid #f5204e;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    padding: 2%;
+}
+
+.elo-image {
+}
